@@ -22,7 +22,6 @@ public class OrientationPackage implements ReactPackage {
         );
     }
 
-    @Override
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
@@ -32,5 +31,3 @@ public class OrientationPackage implements ReactPackage {
         return Arrays.asList();
     }
 }
-
-
